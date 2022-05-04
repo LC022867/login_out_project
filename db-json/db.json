@@ -1,0 +1,28 @@
+{
+  "acc": [
+    {
+      "name": "Luciano",
+      "email": "luciano.cucarano@gmail.com",
+      "password": "lol@19",
+      "id": 1
+    },
+    {
+      "name": "Isam",
+      "email": "Isam.albitar03o@gmail.com",
+      "password": "Oggway",
+      "id": 2
+    },
+    {
+      "name": "HuTao",
+      "email": "huTao.wangshengfuneralparlor@gmail.com",
+      "password": "qiqiHehe:)",
+      "id": 4
+    },
+    {
+      "name": "Milize",
+      "email": "milize.lena@gmail.com",
+      "password": "bG89Anime",
+      "id": 5
+    }
+  ]
+}

@@ -1,16 +1,11 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <signPage />
+<router-view />
 </template>
 
 <script>
-import signPage from './components/sign.vue'
 export default {
   name: 'App',
-  components:{
-    signPage
-  }
-}
+};
 </script>
 
 <style>
