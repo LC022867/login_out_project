@@ -17,4 +17,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.logOutBtn {
+  padding: 1em 2em;
+  font-size: 1em;
+  background: #40a747;
+  cursor: pointer;
+}
 </style>

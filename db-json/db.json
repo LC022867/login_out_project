@@ -1,28 +1,22 @@
 {
   "acc": [
     {
-      "name": "Luciano",
-      "email": "luciano.cucarano@gmail.com",
-      "password": "lol@19",
+      "name": "dwadawdw",
+      "email": "admin",
+      "password": "pass",
       "id": 1
     },
     {
       "name": "Isam",
-      "email": "Isam.albitar03o@gmail.com",
-      "password": "Oggway",
+      "email": "Isam.albitar@elev.ga.ntig.se",
+      "password": "Lakaka",
       "id": 2
     },
     {
-      "name": "HuTao",
-      "email": "huTao.wangshengfuneralparlor@gmail.com",
-      "password": "qiqiHehe:)",
-      "id": 4
-    },
-    {
-      "name": "Milize",
-      "email": "milize.lena@gmail.com",
-      "password": "bG89Anime",
-      "id": 5
+      "name": "Sebastian",
+      "email": "sj@hotmail.com",
+      "password": "123abc",
+      "id": 3
     }
   ]
 }

@@ -10,12 +10,14 @@
     <input type="password" v-model="password" placeholder="Lägg till ditt lösenord">
     <!-- v-on:click akriverar när knappen trycks och sätter "signUp" igång i methods-->
     <button v-on:click="signUp">Registera!</button>
+    <!--to gör att du skicas till login Page med hjälp av router-->
+    <p><router-link to="/login">Login</router-link></p>
 </div>
 </template>
 <script>
 import axios from 'axios'
 export default {
-    name: 'SignUp',
+    name: 'signUp',
 
     data() {
         return {
@@ -44,17 +46,20 @@ export default {
                 //localStorge tillåter webbplatser och appar att spara i webbläsaren utan utgångsdatum
                 //setItem(keyName, keyValue)
                 //man kan inte lägga till "result" för det är en ojekt. Så man ska kovertera det till string 
-                localStorage.setItem("user-acc:", JSON.stringify(result.data));
+                localStorage.setItem("userAcc:", JSON.stringify(result.data));
                 //router kommer att du blir inloggad till hemsidan
-                this.$router.push({name: 'HomePage'})
+                this.$router.push({name: 'homePage'})
             }
         }
     },
-    mounted() {
-        let user = localStorage.setItem("user-acc:");
+    //Det används oftast för att skicka en HTTP-förfrågan för att hämta data som komponenten och sen den renderar.
+     mounted() {
+         //Skapa variabel "user" för om konto är förfarande inne eller skapad
+        let user = localStorage.getItem('userAcc:');
+        //Om ett konto är skapad 
         if (user) {
-            //
-            this.$router.push({name: "HomePage"});
+            //Ska man fortsätta vara i Hemsidan
+             this.$router.push({name: 'homePage'})
         }
     }
 }
